@@ -1,68 +1,74 @@
 
 body {
-
-    font-family: "Manrope", sans-serif;
-    min-height: 2000px;
-    background: url("../img/Image.jpg") bottom right/ 51% 100% no-repeat,
-    linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%) no-repeat;
-    
+min-height: 2000px;
+    font-family: "Manrope", sans-serif;  
 }
 
 h1,h2,h3,p {
     margin: 0;
 }
+.plan {
+
+    width: 1440px;
+    height: 866px;
+    background: url("../img/Image.jpg") bottom right/ 51% 100% no-repeat,
+    linear-gradient(194.01deg, #D9E8EF 9.6%, #EAF2F5 89.64%) no-repeat;
+    margin: 0 auto;
+}
 
 .conteiner {
     width: 1110px;
     margin-left: 165px;
-    margin-top: 22px;
-    box-sizing: border-box;
-    margin: 0 auto;
-     
 }
+
 .head {
-    position: sticky;
+    position: sticky; /* использовал стики так как при использовании fixed  блок head выпадает из потока и блок сдвигается вниз*/
     top: 0;
-   
 }
+
 .navimg {
     vertical-align: middle;
     display: inline-block;
-    
+    margin-top: 18px;
+       
 }
 
 nav {
     
     display: inline-block;
     vertical-align: middle;
-    margin-left: 573px;
+    margin-left:645px;
+    margin-top: 26px;
+       
 }
 
 .nav, .navimg {
      vertical-align: middle;
      display:inline-block;
-     box-sizing: border-box;
-    }
+ }
 
 .ml-32 {
-    margin-left: 32px;
-    text-decoration: none;
+    margin-left: 28px;/* с учетом -4px так 32 бы было*/
 }
 
- .a {
+ a {
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
+    color: #18191F;
+    text-decoration: none;
+    
     }
     .cube {
         width: 540px;
         position: relative;
+        margin-bottom: 222px;
     }
     .descriptonone {
         font-weight: 800;
         font-size: 72px;
         line-height: 98px;
-        margin-top: 244px;
+        margin-top: 238px;
     }
     .descriptontwo {
         font-weight: normal;
